@@ -23,10 +23,10 @@ class Project(ConanFile):
         return False
 
     def requirements(self):
-        self.requires("coco-file/0.2.0", options={"platform": self.options.platform})
+        self.requires("coco-file/towards1", options={"platform": self.options.platform})
 
     def build_requirements(self):
-        self.tool_requires("coco-toolchain/0.3.0", options={"platform": self.options.platform})
+        self.tool_requires("coco-toolchain/towards1", options={"platform": self.options.platform})
 
     keep_imports = True
     def imports(self):
