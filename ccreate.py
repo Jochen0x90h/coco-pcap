@@ -1,7 +1,7 @@
 # Calls "conan create" for all presets in cpresets.txt
 # This creates packages that can be used by dependent projects
 #
-# usage: $ python create.py
+# usage: $ python ccreate.py
 #
 
 import subprocess
